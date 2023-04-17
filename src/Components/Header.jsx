@@ -20,7 +20,7 @@ const Header = () => {
                     <Link to={'/login'} className='font-bold'>Login</Link>
                     <Link to={'/register'} className='font-bold'>SingUp</Link>
                     <Link to={'/order'} className='font-bold'>Orders</Link>
-                    {user && <Link to={'/profile'} className='font-bold'>Profile</Link>}
+                    {user && <Link to={'/profile'} className='font-bold'>User Profile</Link>}
                 </div>
                 <div>
                     {
